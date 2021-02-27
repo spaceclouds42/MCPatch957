@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mcpatch957",
+  "version": "${version}",
+  "name": "MCPatch957",
+  "description": "Patches MC-957: Powered rails do not update when additional power sources are added or removed",
+  "authors": [
+    "SpaceClouds42"
+  ],
+  "contact": {
+    "website": "https://SpaceClouds42.github.io/MCPatch957",
+    "repo": "https://github.com/SpaceClouds42/MCPatch957"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/mcpatch957/icon.png",
+  "environment": "server",
+  "entrypoints": {},
+  "mixins": [
+    "mcpatch957.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
