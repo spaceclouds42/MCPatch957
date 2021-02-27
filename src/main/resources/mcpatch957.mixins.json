@@ -4,7 +4,7 @@
   "package": "us.spaceclouds42.mcpatch957.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "RailBlockMixin"
+    "PoweredRailBlockMixin"
   ],
   "injectors": {
     "defaultRequire": 1
